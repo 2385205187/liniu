@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>利牛网</title>
+    <style>
+        /* 初始化样式 */
+        *{margin: 0; padding: 0;}
+        ul{list-style-type: none;}
+        /* 去掉小标点 */
+        body{font: normal normal 16px/1.5 arial;}
+        /* 设置字体 */
+        h1,h2,h3{font-weight: normal;}
+        a{text-decoration: none;}  
+         /*去掉下划线 */
+
+
+         .w960{ width: 960px; margin-left: auto; margin-right: auto;}
+        /* 设置版心 */
+        .fl{float: left;}
+        /* 左浮动 */
+        .fr{float: right;}
+        /* 右浮动 */
+
+        /* logo区域的样式================== */
+        .logo{
+            background-color: #E65224;
+            /* 设置背景颜色 */
+            height: 73px; /* 108-35 */
+            padding-top: 35px;  /* logo区域的占据空间就变大了 */
+        }
+        .logo ul{
+            overflow: hidden;
+        }
+        .logo ul li div p{
+            color: #fff;
+        }
+        /* 设置字体颜色 */
+        .logo ul strong{
+            color: #fff;
+        }
+        .logo ul h1 a{
+            display: block;
+            /* 把女标签改为人妖标签 */
+            width: 182px;
+            height: 45px;
+            background: url("./images/logo.png") no-repeat;
+            text-indent: -999px;
+        }
+        /* 导航区域的样式================== */
+        .nav{
+            height: 45px;
+            margin-top: 35px;
+        }
+        .nav ul a {
+            display: block;
+            color: #814d4d;
+            float: left;
+            margin-right: 65px;
+        }
+        .nav ul a:hover{
+            color: #e75225;
+        }
+
+        /* 收益区域的样式================ */
+        .income{
+            height: 192px;
+            margin-top: 40px;
+        }
+        .income ul li {
+            float: left;
+            margin-right: 120px;
+        }
+        .income ul li img{
+            float: left;
+            margin-right: 10px;
+        }
+        .income ul li dl{
+            float: left;
+            width: 146px;
+        }
+        .income ul li dl dt{
+            font-size: 20px;
+        }
+        /* 主要业务区域的样式================ */
+        .vocationa h3{
+            text-align: center;
+            font-size: 30px;
+        }
+        .vocationa ul{
+            float: left;
+            width: 225px;
+            margin-right: 20px;
+            margin-top: 50px;
+        }
+        .vocationa ul dl dt{
+            color: #e75225;
+            font-size: 18px;
+            margin-top: 26px;
+        }
+        .vocationa ul dl dd{
+            color: #c3ab9f;
+            font-size: 14px;
+        }
+        .vocationa ul li a{
+        display: block;
+        width: 103px;
+        height: 39px;
+        background-color: #4b4b4b;
+        color: #fff;
+        text-align: center;
+        padding-top: 14px;
+        margin-top: 33px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 网页整体 start -->
+    <div class="wraper">
+        <!-- logo start -->
+         <div class="logo">
+            <ul class="w960">
+            <li class="fl">  
+                <h1>
+                    <a href="">利牛网</a>
+                </h1> 
+            </li>
+            <li class="fr">
+                <img class="fl" src="./images/phone.png" alt="">
+                <div class="fr">
+                    <p>财富热线</p>
+                    <strong>1234567890</strong>
+                </div>
+            </li>
+            </ul>  
+        </div> 
+        <!-- logo end -->
+        <!-- 导航 start -->
+        <div class="nav">
+            <ul class="w960">
+                <li><a style="padding-left: 20px; color: #e75225;" href="#">首页</a></li>
+                <li><a href="#">关于利牛</a></li>
+                <li><a href="#">行业资讯</a></li>
+                <li><a href="#">主要业务</a></li>
+                <li><a href="#">安全保障</a></li>
+            </ul>
+        </div>
+        <!-- 导航 end-->
+        <!-- 轮播图 start -->
+        <div class="cartoon">
+            <div class="w960">
+                <img src="./images/bigAdvimg.png" alt="轮播图">
+            </div>
+        </div>
+        <!-- 轮播图 end -->
+        <!-- 收益 start -->
+        <div class="income">
+            <div class="w960">
+                 <ul>
+                     <li>
+                         <img src="./images/promise1.png" alt="">
+                         <dl>
+                             <dt>稳定高收益</dt>
+                             <dd>40倍银行活期存款利息100元起投，交易0手续费</dd>
+                         </dl>
+                     </li>
+                     <li>
+                        <img src="./images/promise2.png" alt="">
+                        <dl>
+                            <dt>安全严保障</dt>
+                            <dd>本息保障，风控审核贷后管理</dd>
+                        </dl>
+                    </li>
+                    <li style="margin-right: 0px;">
+                        <img src="./images/promise3.png" alt="">
+                        <dl>
+                            <dt>便捷优服务</dt>
+                            <dd>24小时放款，提前还款减轻费用</dd>
+                        </dl>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+        <!-- 收益 eng -->
+        <!-- 主要业务 start -->
+        <div class="vocationa">
+            <div class="w960">
+                <h3>主要业务/PRODUCTS SERVICES</h3>
+                <ul>
+                    <li>
+                        <img src="./images/business1.png" alt="">
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>投资业务</dt>
+                            <dd>证券投资业务，指银行购买有价证券的活动</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#">立即咨询>></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="./images/business2.png" alt="">
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>理财增值</dt>
+                            <dd>通过发行基金单位，集中投资者的基金，由基金管理人管理和利用基金</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#">立即咨询>></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="./images/business3.png" alt="">
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>信托服务</dt>
+                            <dd>信托业务建立了以项目为中心，以风险贯穿其间的业务运作平台</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#">立即咨询>></a>
+                    </li>
+                </ul>
+                <ul style="margin-right: 0px;">
+                    <li>
+                        <img src="./images/business4.png" alt="">
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>产品代理</dt>
+                            <dd>通过代理的形式，推广和买卖产品，是产品的一种交易和流通方式</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <a href="#">立即咨询>></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 主要业务 end -->
+    </div>
+    <!-- 网页整体 end -->
+    
+</body>
+</html>
